@@ -1,0 +1,46 @@
+{
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "sync.gist": "",
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false,
+    "sync.askGistName": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastUpload": "2018-05-24T09:02:14.801Z",
+    "sync.lastDownload": "",
+    "sync.forceDownload": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "npm.enableScriptExplorer": true,
+    "window.zoomLevel": 0,
+    "git.enableSmartCommit": true,
+    "terminal.integrated.fontFamily": "Fira Code, Monoid NF",
+    "workbench.colorCustomizations": {
+        "titleBar.activeForeground": "#000",
+        "titleBar.inactiveForeground": "#000000CC",
+        "titleBar.activeBackground": "#2179d1",
+        "titleBar.inactiveBackground": "#2179d1CC"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.minimap.enabled": false,
+    "editor.fontWeight": "bold",
+    "eslint.alwaysShowStatus": true,
+    "eslint.lintTask.enable": true,
+    "eslint.codeAction.showDocumentation": {
+    "enable": true
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "[jsonc]": {
+    
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
+    },
+}
