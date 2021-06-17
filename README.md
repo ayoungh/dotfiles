@@ -12,4 +12,9 @@ Use the github guide - https://docs.github.com/en/github/authenticating-to-githu
 
 Renamed `zshrc` file to not have the dot so it is not hidden
 
+Added Dotbot, with a basic config. - https://github.com/anishathalye/dotbot
+To run this we run ` ./install` in the `.dotfiles` directory
+
+---
+
 Originally Inspired by https://github.com/wesbos/dotfiles to create this repo of my dotfiles...Still in progress. 
