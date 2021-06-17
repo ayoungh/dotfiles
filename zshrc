@@ -98,6 +98,12 @@ autoload -Uz compinit && compinit -i
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
+# Functions
+function mkcd() {
+  mkdir -p "$@" && cd "$_";
+}
+
+# show neofetch each startup 
 neofetch
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
