@@ -9,6 +9,8 @@ brew "bat"
 brew "bfg"
 # Secure runtime for JavaScript and TypeScript
 brew "deno"
+# Pack, ship and run any application as a lightweight container
+brew "docker", link: false
 # Modern replacement for 'ls'
 brew "exa"
 # Play, record, convert, and stream audio and video
@@ -35,6 +37,8 @@ brew "watchman"
 brew "yarn"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
+# Desktop casting/streaming app for Apple TV and Chromecast
+cask "beamer"
 # Tool to hide status bar icons
 cask "dozer"
 # Client for the Dropbox cloud storage service
@@ -46,13 +50,22 @@ cask "graphql-playground"
 cask "kap"
 # Create deployments right from the tray menu
 cask "now"
+# Instant messaging application focusing on security
+cask "signal"
+# Video communication and virtual meeting platform
+cask "zoom"
 mas "Amphetamine", id: 937984704
+mas "Backtrack", id: 1477089520
 mas "Bear", id: 1091189122
 mas "Betternet VPN", id: 1028905953
 mas "Clocker", id: 1056643111
+mas "com.BZG.Aerate", id: 1480882940
 mas "GarageBand", id: 682658836
 mas "GIPHY CAPTURE", id: 668208984
+mas "Houseparty", id: 1381523962
 mas "iMovie", id: 408981434
+mas "Intermission", id: 1439431081
+mas "Jira", id: 1475897096
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "LastPass", id: 926036361
@@ -65,5 +78,6 @@ mas "Spark", id: 1176895641
 mas "Todoist", id: 585829637
 mas "Trello", id: 1278508951
 mas "TweetDeck", id: 485812721
+mas "Unarchiver One", id: 1127253508
 mas "Unsplash Wallpapers", id: 1284863847
 mas "Xcode", id: 497799835
