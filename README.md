@@ -18,6 +18,8 @@ To run this we run ` ./install` in the `.dotfiles` directory
 
 ### Homebrew 
 
+Now using a Brewfile to install 
+
 - httpie
 - bat
 

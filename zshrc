@@ -84,6 +84,8 @@ autoload -Uz compinit && compinit -i
 
 # added after installing bat with homebrew to add syntax highlighting
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+# add the flag to skip gatekeeper for cask installs
+export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
