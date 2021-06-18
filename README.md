@@ -15,6 +15,17 @@ Renamed `zshrc` file to not have the dot so it is not hidden
 Added Dotbot, with a basic config. - https://github.com/anishathalye/dotbot
 To run this we run ` ./install` in the `.dotfiles` directory
 
+
+### Homebrew 
+
+- httpie
+- bat
+
+Applications to install
+- google-chrome
+- visual-studio-code
+
+
 ---
 
 Originally Inspired by https://github.com/wesbos/dotfiles to create this repo of my dotfiles...Still in progress. 
