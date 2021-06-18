@@ -12,4 +12,4 @@ fi
 brew install httpie
 brew install bat
 
-brew install google-chrome
+brew install --no-quarantine google-chrome
