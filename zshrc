@@ -82,6 +82,9 @@ autoload -Uz compinit && compinit -i
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
+# added after installing bat with homebrew to add syntax highlighting
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
