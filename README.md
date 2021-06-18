@@ -18,7 +18,7 @@ To run this we run ` ./install` in the `.dotfiles` directory
 
 ### Homebrew 
 
-Now using a Brewfile to install 
+Now using a Brewfile to install - In the `.dotfiles` directory run `brew bundle dump --force --describe` to get a new updated brewfile with descriptions
 
 - httpie
 - bat
