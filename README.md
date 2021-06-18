@@ -20,14 +20,6 @@ To run this we run ` ./install` in the `.dotfiles` directory
 
 Now using a Brewfile to install - In the `.dotfiles` directory run `brew bundle dump --force --describe` to get a new updated brewfile with descriptions
 
-- httpie
-- bat
-
-Applications to install
-- google-chrome
-- visual-studio-code
-
-
 ---
 
 Originally Inspired by https://github.com/wesbos/dotfiles to create this repo of my dotfiles...Still in progress. 
