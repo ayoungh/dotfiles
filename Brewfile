@@ -35,6 +35,8 @@ brew "yarn"
 brew "youtube-dl"
 # Tool to hide status bar icons
 cask "dozer"
+# Client for the Dropbox cloud storage service
+cask "dropbox"
 # Light, Electron-based Wrapper around GraphiQL
 cask "graphiql"
 cask "graphql-playground"
