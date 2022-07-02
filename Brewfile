@@ -1,6 +1,9 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "buo/cask-upgrade"
+# github command-line tool
+brew "gh"
 # Programmable completion for Bash 3.2
 brew "bash-completion"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -37,6 +40,8 @@ brew "watchman"
 brew "yarn"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
+# Google Chrome browser
+cask "google-chrome"
 # Desktop casting/streaming app for Apple TV and Chromecast
 cask "beamer"
 # Tool to hide status bar icons
@@ -54,6 +59,17 @@ cask "now"
 cask "signal"
 # Video communication and virtual meeting platform
 cask "zoom"
+# Control your tools with a few keystrokes
+cask "raycast"
+# Reimagine your terminal
+cask "fig"
+# figma 
+cask "figma"
+# HTTP and GraphQL Client
+cask "insomnia"
+# KeyCastr to share your keystrokes when creating screencasts
+cask "keycastr"
+# mac app store apps 
 mas "Amphetamine", id: 937984704
 mas "Backtrack", id: 1477089520
 mas "Bear", id: 1091189122
