@@ -3,14 +3,15 @@
 ## Restore from this repo Instructions
 
 1. `xcode-select --install` (Command Line Tools are required for Git and Homebrew)
-2. `https://github.com/ayoungh/dotfiles.git ~/.dotfiles`. We'll start with `https` but switch to `ssh` after everything is installed.
+2. `git clone https://github.com/ayoungh/dotfiles.git ~/.dotfiles`. We'll start with `https` but switch to `ssh` after everything is installed.
 3. `cd ~/.dotfiles`
 4. If necessary, `git checkout <another_branch>`.
 5. Do one last Software Audit by editing [Brewfile](Brewfile) directly.
-6. Run [`./install`](install)
-7. Restart computer.
-8. Setup up Dropbox (use multifactor authentication!) and allow files to sync before setting up dependent applications. Alfred settings are stored here. Mackup depends on this as well (and thus so do Terminal and VS Code).
-9. [Generate ssh key](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh), add to GitHub, and switch remotes.
+6. You will need to [install Homebrew](https://brew.sh/)
+7. Run [`./install`](install)
+8. Restart computer.
+9. Setup up Dropbox (use multifactor authentication!) and allow files to sync before setting up dependent applications. Alfred settings are stored here. Mackup depends on this as well (and thus so do Terminal and VS Code).
+10. [Generate ssh key](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh), add to GitHub, and switch remotes.
 
     ```zsh
     # Generate SSH key in default location (~/.ssh/config)
