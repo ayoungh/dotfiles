@@ -9,7 +9,7 @@
     ~/.gitconfig: gitconfig
 
 - create:
-    - ~/Dev
+    - ~/Developer
 
 - shell:
     -
