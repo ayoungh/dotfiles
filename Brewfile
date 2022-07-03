@@ -100,7 +100,6 @@ mas "PiPifier", id: 1160374471
 mas "Shazam", id: 897118787
 mas "Slack", id: 803453959
 mas "Spark", id: 1176895641
-mas "TweetDeck", id: 485812721
 mas "Unarchiver One", id: 1127253508
 mas "Unsplash Wallpapers", id: 1284863847
 mas "Xcode", id: 497799835
