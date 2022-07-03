@@ -5,6 +5,7 @@
 - clean: ['~']
 
 - link:
+    ~/.hyper.js: .hyper.js
     ~/.zshrc: zshrc
     ~/.gitconfig: gitconfig
 
