@@ -1,10 +1,22 @@
 # Fig pre block. Keep at the top of this file.
-[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && . "$HOME/.fig/shell/zshrc.pre.zsh"
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# Export lang
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export LC_CTYPE="en_US.UTF-8"
+
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
+
+# symlink;
+fpath=("$HOMEBREW_PREFIX/share/zsh/site-functions" $fpath)
+
+# prompt;
+autoload -U promptinit; promptinit
+prompt spaceship
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -13,8 +25,8 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="spaceship"
 
 SPACESHIP_PROMPT_ADD_NEWLINE="true"
-SPACESHIP_CHAR_SYMBOL="\uf0e7"
-SPACESHIP_CHAR_PREFIX="\uf962"
+SPACESHIP_CHAR_SYMBOL="\u27a6"
+SPACESHIP_CHAR_PREFIX="\u26a1"
 SPACESHIP_CHAR_SUFFIX=(" ")
 SPACESHIP_CHAR_COLOR_SUCCESS="yellow"
 SPACESHIP_PROMPT_DEFAULT_PREFIX="$USER"
@@ -140,4 +152,21 @@ export PATH="/opt/homebrew/opt/python@3.8/bin:$PATH"
 export PATH="/opt/homebrew/opt/sphinx-doc/bin:$PATH"
 
 # Fig post block. Keep at the bottom of this file.
-[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && . "$HOME/.fig/shell/zshrc.post.zsh"
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
+
+# bun completions
+[ -s "/Users/ayoungh/.bun/_bun" ] && source "/Users/ayoungh/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+# Added by LM Studio CLI tool (lms)
+export PATH="$PATH:/Users/ayoungh/.cache/lm-studio/bin"
+
+# pnpm
+export PNPM_HOME="/Users/ayoungh/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
